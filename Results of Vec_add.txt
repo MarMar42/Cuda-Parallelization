@@ -1,0 +1,115 @@
+-------------------N = 32768----------------
+CPU: Run Time: 0.119328 ms
+CPU: Speed Up: 1.000000x
+CPU: Throughputs: 0.274604 GFLOP/s
+
+Number of threads = 256
+
+GPU(Shared) Tile Size = 256: Run Time: 0.162400 ms
+GPU(Shared) Tile Size = 256: Speed Up: 0.734778x
+GPU(Shared) Tile Size = 256: Throughputs: 0.201773 GFLOP/s
+GPU(Shared) Tile Size = 256: Ratio of Throughputs: 0.734778
+
+GPU(Global): Run Time: 0.081728 ms
+GPU(Global): Speed Up: 1.460063x
+GPU(Global): Throughputs: 0.400940 GFLOP/s
+GPU(Global): Ratio of Throughputs: 1.460063
+
+Number of threads = 512
+
+GPU(Shared) Tile Size = 512: Run Time: 0.191616 ms
+GPU(Shared) Tile Size = 512: Speed Up: 0.575818x
+GPU(Shared) Tile Size = 512: Throughputs: 0.171009 GFLOP/s
+GPU(Shared) Tile Size = 512: Ratio of Throughputs: 0.575818
+
+GPU(Global): Run Time: 0.068768 ms
+GPU(Global): Speed Up: 1.604467x
+GPU(Global): Throughputs: 0.476501 GFLOP/s
+GPU(Global): Ratio of Throughputs: 1.604467
+
+-------------------N = 65536----------------
+CPU: Run Time: 0.285088 ms
+CPU: Speed Up: 1.000000x
+CPU: Throughputs: 0.229880 GFLOP/s
+
+Number of threads = 256
+
+GPU(Shared) Tile Size = 256: Run Time: 0.223520 ms
+GPU(Shared) Tile Size = 256: Speed Up: 1.275447x
+GPU(Shared) Tile Size = 256: Throughputs: 0.293200 GFLOP/s
+GPU(Shared) Tile Size = 256: Ratio of Throughputs: 1.275447
+
+GPU(Global): Run Time: 0.111296 ms
+GPU(Global): Speed Up: 2.561530x
+GPU(Global): Throughputs: 0.588844 GFLOP/s
+GPU(Global): Ratio of Throughputs: 2.561530
+
+Number of threads = 512
+
+GPU(Shared) Tile Size = 512: Run Time: 0.241248 ms
+GPU(Shared) Tile Size = 512: Speed Up: 1.028916x
+GPU(Shared) Tile Size = 512: Throughputs: 0.271654 GFLOP/s
+GPU(Shared) Tile Size = 512: Ratio of Throughputs: 1.028916
+
+GPU(Global): Run Time: 0.111968 ms
+GPU(Global): Speed Up: 2.216919x
+GPU(Global): Throughputs: 0.585310 GFLOP/s
+GPU(Global): Ratio of Throughputs: 2.216919
+
+-------------------N = 1048576----------------
+CPU: Run Time: 3.492928 ms
+CPU: Speed Up: 1.000000x
+CPU: Throughputs: 0.300200 GFLOP/s
+
+Number of threads = 128
+
+GPU(Shared) Tile Size = 128: Run Time: 1.115232 ms
+GPU(Shared) Tile Size = 128: Speed Up: 3.132019x
+GPU(Shared) Tile Size = 128: Throughputs: 0.940231 GFLOP/s
+GPU(Shared) Tile Size = 128: Ratio of Throughputs: 3.132019
+
+GPU(Global): Run Time: 0.932896 ms
+GPU(Global): Speed Up: 3.744177x
+GPU(Global): Throughputs: 1.124001 GFLOP/s
+GPU(Global): Ratio of Throughputs: 3.744177
+
+Number of threads = 256
+
+GPU(Shared) Tile Size = 256: Run Time: 1.124128 ms
+GPU(Shared) Tile Size = 256: Speed Up: 3.111873x
+GPU(Shared) Tile Size = 256: Throughputs: 0.932791 GFLOP/s
+GPU(Shared) Tile Size = 256: Ratio of Throughputs: 3.111873
+
+GPU(Global): Run Time: 0.912288 ms
+GPU(Global): Speed Up: 3.834473x
+GPU(Global): Throughputs: 1.149391 GFLOP/s
+GPU(Global): Ratio of Throughputs: 3.834473
+
+-------------------N = 4194304----------------
+CPU: Run Time: 14.507840 ms
+CPU: Speed Up: 1.000000x
+CPU: Throughputs: 0.289106 GFLOP/s
+
+Number of threads = 128
+
+GPU(Shared) Tile Size = 128: Run Time: 3.346240 ms
+GPU(Shared) Tile Size = 128: Speed Up: 4.335565x
+GPU(Shared) Tile Size = 128: Throughputs: 1.253438 GFLOP/s
+GPU(Shared) Tile Size = 128: Ratio of Throughputs: 4.335565
+
+GPU(Global): Run Time: 3.251232 ms
+GPU(Global): Speed Up: 4.462259x
+GPU(Global): Throughputs: 1.290066 GFLOP/s
+GPU(Global): Ratio of Throughputs: 4.462260
+
+Number of threads = 512
+
+GPU(Shared) Tile Size = 512: Run Time: 3.721056 ms
+GPU(Shared) Tile Size = 512: Speed Up: 3.742585x
+GPU(Shared) Tile Size = 512: Throughputs: 1.127181 GFLOP/s
+GPU(Shared) Tile Size = 512: Ratio of Throughputs: 3.742585
+
+GPU(Global): Run Time: 4.762496 ms
+GPU(Global): Speed Up: 2.924174x
+GPU(Global): Throughputs: 0.880694 GFLOP/s
+GPU(Global): Ratio of Throughputs: 2.924174
