@@ -1,0 +1,122 @@
+﻿Type;Column2;Column3
+Threads = 256;;
+-------------------N = 512----------------;;
+CPU; Run Time;6,626048
+CPU; Speed Up;1
+CPU; Throughputs;0,039563
+;;
+GPU(Global); Run Time;0,197216
+GPU(Global); Speed Up;33,597923
+GPU(Global); Throughputs;0,039563
+GPU(Global); Ratio of Throughputs;33,597923
+;;
+GPU (Shared) tile size = 32, block size = 8; Run Time;0,037696
+GPU (Shared) tile size = 32, block size = 8; Speed Up;175,775894
+GPU (Shared) tile size = 32, block size = 8; Throughputs;6,95416
+GPU (Shared) tile size = 32, block size = 8; Throughput Ratio;175,775895
+;;
+;;
+GPU (Shared) tile size = 32, block size = 16; Run Time;0,039232
+GPU (Shared) tile size = 32, block size = 16; Speed Up;180,047302
+GPU (Shared) tile size = 32, block size = 16; Throughputs;6,681892
+GPU (Shared) tile size = 32, block size = 16; Throughput Ratio;180,047301
+;;
+GPU (Shared) tile size = 64, block size = 8; Run Time;0,057824
+GPU (Shared) tile size = 64, block size = 8; Speed Up;111,301605
+GPU (Shared) tile size = 64, block size = 8; Throughputs;4,533481
+GPU (Shared) tile size = 64, block size = 8; Throughput Ratio;111,301601
+;;
+GPU (Shared) tile size = 64, block size = 16; Run Time;0,061088
+GPU (Shared) tile size = 64, block size = 16; Speed Up;111,553696
+GPU (Shared) tile size = 64, block size = 16; Throughputs;4,291252
+GPU (Shared) tile size = 64, block size = 16; Throughput Ratio;111,553693
+;;
+-------------------N = 1024----------------;;
+CPU; Run Time;37,513824
+CPU; Speed Up;1
+CPU; Throughputs;0,027952
+;;
+GPU(Global); Run Time;0,335008
+GPU(Global); Speed Up;111,978889
+GPU(Global); Throughputs;0,027952
+GPU(Global); Ratio of Throughputs;111,97889
+;;
+GPU (Shared) tile size = 32, block size = 8; Run Time;0,110784
+GPU (Shared) tile size = 32, block size = 8; Speed Up;338,621307
+GPU (Shared) tile size = 32, block size = 8; Throughputs;9,465049
+GPU (Shared) tile size = 32, block size = 8; Throughput Ratio;338,621307
+;;
+GPU (Shared) tile size = 32, block size = 16; Run Time;0,11968
+GPU (Shared) tile size = 32, block size = 16; Speed Up;303,236359
+GPU (Shared) tile size = 32, block size = 16; Throughputs;8,761497
+GPU (Shared) tile size = 32, block size = 16; Throughput Ratio;303,236357
+;;
+GPU (Shared) tile size = 64, block size = 8; Run Time;0,188896
+GPU (Shared) tile size = 64, block size = 8; Speed Up;194,022354
+GPU (Shared) tile size = 64, block size = 8; Throughputs;5,551076
+GPU (Shared) tile size = 64, block size = 8; Throughput Ratio;194,022353
+;;
+GPU (Shared) tile size = 64, block size = 16; Run Time;0,196672
+GPU (Shared) tile size = 64, block size = 16; Speed Up;190,643341
+GPU (Shared) tile size = 64, block size = 16; Throughputs;5,331598
+GPU (Shared) tile size = 64, block size = 16; Throughput Ratio;190,643348
+;;
+-------------------N = 2048----------------;;
+CPU; Run Time;156,90889
+CPU; Speed Up;1
+CPU; Throughputs;0,026731
+;;
+GPU(Global); Run Time;0,960832
+GPU(Global); Speed Up;163,305222
+GPU(Global); Throughputs;0,026731
+GPU(Global); Ratio of Throughputs;163,305231
+;;
+GPU (Shared) tile size = 32, block size = 8; Run Time;0,39872
+GPU (Shared) tile size = 32, block size = 8; Speed Up;393,531525
+GPU (Shared) tile size = 32, block size = 8; Throughputs;10,519422
+GPU (Shared) tile size = 32, block size = 8; Throughput Ratio;393,531533
+;;
+GPU (Shared) tile size = 32, block size = 16; Run Time;0,438848
+GPU (Shared) tile size = 32, block size = 16; Speed Up;359,257019
+GPU (Shared) tile size = 32, block size = 16; Throughputs;9,557533
+GPU (Shared) tile size = 32, block size = 16; Throughput Ratio;359,257018
+;;
+GPU (Shared) tile size = 64, block size = 8; Run Time;0,68608
+GPU (Shared) tile size = 64, block size = 8; Speed Up;224,58284
+GPU (Shared) tile size = 64, block size = 8; Throughputs;6,113433
+GPU (Shared) tile size = 64, block size = 8; Throughput Ratio;224,58284
+;;
+GPU (Shared) tile size = 64, block size = 16; Run Time;0,730304
+GPU (Shared) tile size = 64, block size = 16; Speed Up;211,922562
+GPU (Shared) tile size = 64, block size = 16; Throughputs;5,74323
+GPU (Shared) tile size = 64, block size = 16; Throughput Ratio;211,922561
+;;
+-------------------N = 4096----------------;;
+CPU; Run Time;628,179932
+CPU; Speed Up;1
+CPU; Throughputs;0,026708
+;;
+GPU(Global); Run Time;4,67552
+GPU(Global); Speed Up;134,355103
+GPU(Global); Throughputs;0,026708
+GPU(Global); Ratio of Throughputs;134,355094
+;;
+GPU (Shared) tile size = 32, block size = 8; Run Time;1,549792
+GPU (Shared) tile size = 32, block size = 8; Speed Up;405,331757
+GPU (Shared) tile size = 32, block size = 8; Throughputs;10,825463
+GPU (Shared) tile size = 32, block size = 8; Throughput Ratio;405,331748
+;;
+GPU (Shared) tile size = 32, block size = 16; Run Time;1,721792
+GPU (Shared) tile size = 32, block size = 16; Speed Up;355,239441
+GPU (Shared) tile size = 32, block size = 16; Throughputs;9,744044
+GPU (Shared) tile size = 32, block size = 16; Throughput Ratio;355,239456
+;;
+GPU (Shared) tile size = 64, block size = 8; Run Time;2,676192
+GPU (Shared) tile size = 64, block size = 8; Speed Up;244,855743
+GPU (Shared) tile size = 64, block size = 8; Throughputs;6,269063
+GPU (Shared) tile size = 64, block size = 8; Throughput Ratio;244,855751
+;;
+GPU (Shared) tile size = 64, block size = 16; Run Time;2,863264
+GPU (Shared) tile size = 64, block size = 16; Speed Up;223,012436
+GPU (Shared) tile size = 64, block size = 16; Throughputs;5,859472
+GPU (Shared) tile size = 64, block size = 16; Throughput Ratio;223,012447
