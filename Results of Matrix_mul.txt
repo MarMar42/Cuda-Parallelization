@@ -1,0 +1,58 @@
+-------------------N = 512----------------
+CPU: Run Time: 1421.973389 ms
+CPU: Speed Up: 1.000000x
+CPU: Throughputs: 0.000001 GFLOP/s
+
+GPU(Shared) Tile Size = 16: Run Time: 1.557024 ms
+GPU(Shared) Tile Size = 16: Speed Up: 895.672974x
+GPU(Shared) Tile Size = 16: Throughputs: 0.000658 GFLOP/s
+GPU(Shared) Tile Size = 16: Ratio of Throughputs: 895.673004
+
+GPU(Shared) Tile Size = 32: Run Time: 1.251712 ms
+GPU(Shared) Tile Size = 32: Speed Up: 1136.022827x
+GPU(Shared) Tile Size = 32: Throughputs: 0.000818 GFLOP/s
+GPU(Shared) Tile Size = 32: Ratio of Throughputs: 1136.022888
+
+-------------------N = 1024----------------
+CPU: Run Time: 12771.994141 ms
+CPU: Speed Up: 1.000000x
+CPU: Throughputs: 0.000000 GFLOP/s
+
+GPU(Shared) Tile Size = 16: Run Time: 11.543040 ms
+GPU(Shared) Tile Size = 16: Speed Up: 1106.467041x
+GPU(Shared) Tile Size = 16: Throughputs: 0.000177 GFLOP/s
+GPU(Shared) Tile Size = 16: Ratio of Throughputs: 1106.467116
+
+GPU(Shared) Tile Size = 32: Run Time: 8.769728 ms
+GPU(Shared) Tile Size = 32: Speed Up: 1471.028931x
+GPU(Shared) Tile Size = 32: Throughputs: 0.000234 GFLOP/s
+GPU(Shared) Tile Size = 32: Ratio of Throughputs: 1471.028923
+
+-------------------N = 2048----------------
+CPU: Run Time: 117587.585938 ms
+CPU: Speed Up: 1.000000x
+CPU: Throughputs: 0.000000 GFLOP/s
+
+GPU(Shared) Tile Size = 16: Run Time: 90.507683 ms
+GPU(Shared) Tile Size = 16: Speed Up: 1299.200073x
+GPU(Shared) Tile Size = 16: Throughputs: 0.000045 GFLOP/s
+GPU(Shared) Tile Size = 16: Ratio of Throughputs: 1299.200089
+
+GPU(Shared) Tile Size = 32: Run Time: 68.837181 ms
+GPU(Shared) Tile Size = 32: Speed Up: 1723.890381x
+GPU(Shared) Tile Size = 32: Throughputs: 0.000060 GFLOP/s
+GPU(Shared) Tile Size = 32: Ratio of Throughputs: 1723.890489
+
+-------------------N = 4096----------------
+CPU: Run Time: 2113389.750000 ms
+CPU: Speed Up: 1.000000x
+CPU: Throughputs: 0.000000 GFLOP/s
+
+GPU(Shared) Tile Size = 16: Run Time: 631.837830 ms
+GPU(Shared) Tile Size = 16: Speed Up: 3344.829346x
+GPU(Shared) Tile Size = 16: Throughputs: 0.000013 GFLOP/s
+
+GPU(Shared) Tile Size = 32: Run Time: 487.460663 ms
+GPU(Shared) Tile Size = 32: Speed Up: 4484.222656x
+GPU(Shared) Tile Size = 32: Throughputs: 0.000017 GFLOP/s
+GPU(Shared) Tile Size = 32: Ratio of Throughputs: 4484.223036
