@@ -191,7 +191,7 @@ int main (void)
     {
         printf("GPU(Global): Run Time: %f ms\n", glob_time);
         printf("GPU(Global): Speed Up: %fx\n", seq_time/glob_time);
-        printf("GPU(Global): Throughputs: %f GFLOP/s\n", 1e-9*N*N/(seq_time*1e-3));
+        printf("GPU(Global): Throughputs: %f GFLOP/s\n", 1e-9*N*N/(glob_time*1e-3));
         printf("GPU(Global): Ratio of Throughputs: %f\n\n", 1e-9*N*N/(glob_time*1e-3)/cputp);
     }
     else
